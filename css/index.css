@@ -134,3 +134,41 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/************************* MOBILE 500 PX *********************/
+
+@media(max-width:500px){
+    /*GENERAL STYLES*/
+body{
+    line-height: 1;
+}
+a {	
+    font-size:3rem;	
+}			
+
+/*HEADER STYLES */
+
+nav{
+    width:100%;
+}
+
+/*Title Section Styles*/
+.title-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title-container div {	
+    width:100%;
+}	
+
+/*Artists Section Styles */
+.artists-container{
+    display:flex;
+    justify-content: center;
+}
+
+.artist{
+    width:50%;
+}
+}
